@@ -14,7 +14,16 @@ struct ContentView: View {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Form {
+                Group {
+                    Section {
+                        Text("Let's talk")
+                    }
+                }
+            }
+            Section {
+                Text("Let's talk")
+            }
         }
         .padding()
     }
